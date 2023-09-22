@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+       {% include "fonts.html" %} 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing</title>
+    <link rel="stylesheet" href="{{ url_for('static' , filename = "css/landing.css") }}">
+    
+
+</head>
+<body>
+    <img id = "herobg" src="../static/content/herobg.jpg" alt=""></img>
+    <brand>
+    <img src="../static/content/logo.png" alt="">
+    </brand>
+    <text>HELLO !</text>
+    <subtext>
+        <span>Dreamer!!</span>, Want your dreams turn into reality?
+    </subtext>
+    <form action="#" method="POST">
+        <input type="text" id = "username" placeholder="What Should We Call You?">
+       
+        <input type="submit"value = "Let's GO!" >
+    </form>
+
+</body>
+</html>

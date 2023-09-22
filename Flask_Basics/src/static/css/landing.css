@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;    
+   
+}
+#herobg{
+    position: fixed;
+    
+    opacity: 0.4;
+    top: 2em;
+    width: 100vw;
+    display:fixed;
+    z-index: -1
+}
+brand img{
+    width: max(15vw,10em);
+}
+
+text{
+    font-size: max(10vw, 50pt);
+    color: #59898f;
+    font-family:'Outfit', Courier, monospace;
+    font-weight: bold;
+    margin-top: -0.25em;
+}
+
+subtext{
+    font-size: max(2vw, 12pt);
+    font-family: 'Outfit';
+    color: #424242;
+    margin-top: -1em;
+}
+subtext span{
+    font-family:'Croissant One', Courier, monospace;
+    color: #5c6c7c;
+
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em;
+    margin-top: 5em;
+    gap: 1em;
+    
+    
+}
+form input{
+    border: none;
+    height: 3em;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    background-color: #e7fcffa9;
+}
+
+form input::active{
+    border: none;
+
+}
+form input[type = 'text']{
+    
+    width: max(25vw,15em);
+    color: #5c6c7c;
+    font-size: 18pt;
+    padding: 0em 2em;
+    /* border: 1px solid black; */
+
+}
+form input[type = 'submit']{
+    width: max(15vw,5em);
+    height: 2.5em;
+    font-size: 18pt;
+    color: #5c6c7c;
+    border: 2.5px solid #5c6c7c;
+    cursor: pointer;
+    
+}
+
+form input::placeholder{
+    
+    color: #5c6c7c;
+    font-size: 18pt;
+    font-family: "Outfit";  
+}
+
