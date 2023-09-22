@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-
+#Hi
 username = ""
 
 @app.route("/", methods = ['POST','GET'])
@@ -16,7 +16,7 @@ def base():
     render_template('base.html')
 
 @app.route("/homepage")
-def welcomeadmin( username):
+def welcomeadmin(username):
     return username
 
 @app.route("/welcome/<name>")
