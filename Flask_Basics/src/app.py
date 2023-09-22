@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 #Hi
-username = ""
+username = "Amrinder singh is a pussy"
 
 @app.route("/", methods = ['POST','GET'])
 def welcomeuser():
